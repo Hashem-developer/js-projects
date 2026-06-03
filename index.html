@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="todo_bx">
+      <h1 class="todo_title">Todo list app</h1>
+      <div class="todo_input_bx">
+        <label for="todo_input">Add item</label>
+        <input type="text" id="todo_input" placeholder="Enter Task...." />
+      </div>
+      <p class="alert-message">Please Enter Task...</p>
+      <div class="todo_btn_bx">
+        <button class="btn addTodos" id="btn-primary">Add to list</button>
+        <button class="btn clearTodo" id="btn-danger">Clear todo list</button>
+      </div>
+      <div class="todo_list_bx">
+        <p class="todo_text_list">Todo list:</p>
+        <ul class="todo_list"></ul>
+      </div>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
